@@ -72,6 +72,10 @@ TEMPLATES = [
 WSGI_APPLICATION = 'heroes_and_villians.wsgi.application'
 
 
+REST_FRAMEWORK = {
+    'COERCE_DECIMAL_TO_STRING': False
+}
+
 
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
